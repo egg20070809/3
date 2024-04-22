@@ -1,0 +1,7 @@
+<body>
+    <h1>美金換算台幣</h1>
+    <p>請輸入要換算的美金金額：</p>
+    <input type="number" id="usdAmount" placeholder="請輸入美金金額" step="0.01">
+    <button onclick="convertCurrency()">換算</button>
+    <div id="result"></div>
+</body>
